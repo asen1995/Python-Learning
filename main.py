@@ -11,10 +11,11 @@ def main():
     # dp.printFullList(listOfNumbers)
     # dp.printListFromTo(listOfNumbers, 3, 8)
 
-    # fileManager.writeIntoFile("asen.txt","content to write")
-    fileManager.deleteFile("asen.txt")
-
-
+    # fileManager.writeIntoFile("asen.txt","content to write and read after that")
+    # #fileManager.deleteFile("asen.txt")
+    # fileManager.readFile("asen.txt")
+    # fileManager.renameFile("renamed.txt","asen.txt")
+    fileManager.updateFileAddLine("asen.txt", "sentence one more")
 
 main()
 
