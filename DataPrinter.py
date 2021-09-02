@@ -1,6 +1,6 @@
 
 def printme( str ):
-   "This prints a passed string into this function"
+   "This prints a passed string called str into this function"
    print (str)
    return;
 
