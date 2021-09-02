@@ -1,6 +1,7 @@
 import DataPrinter as dp
 import exceptionExample as exceptionExample
 import FileManager as fileManager
+from Employee import Employee
 
 def main():
 
@@ -15,7 +16,12 @@ def main():
     # #fileManager.deleteFile("asen.txt")
     # fileManager.readFile("asen.txt")
     # fileManager.renameFile("renamed.txt","asen.txt")
-    fileManager.updateFileAddLine("asen.txt", "sentence one more")
+    # fileManager.updateFileAddLine("asen.txt", "sentence one more")
+
+    emp = Employee("Asen", 2000000)
+    emp.displayCount()
+    emp.displayEmployee()
+
 
 main()
 
