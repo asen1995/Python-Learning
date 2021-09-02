@@ -1,4 +1,5 @@
 import DataPrinter as dp
+import exceptionExample as exceptionExample
 
 
 def main():
@@ -10,5 +11,8 @@ def main():
     dp.printFullList(listOfNumbers)
     dp.printListFromTo(listOfNumbers, 3, 8)
 
+    exceptionExample.throwException()
+
 
 main()
+
