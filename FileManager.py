@@ -36,3 +36,11 @@ def readFile(filename):
     else:
         print( filename + " don't exists")
 
+
+
+def renameFile(filename,newfilename):
+
+    if path.exists(filename):
+        os.rename(filename,newfilename)
+    else:
+        print( filename + " don't exists")

@@ -12,8 +12,9 @@ def main():
     # dp.printListFromTo(listOfNumbers, 3, 8)
 
     # fileManager.writeIntoFile("asen.txt","content to write and read after that")
-    #fileManager.deleteFile("asen.txt")
-    fileManager.readFile("asen.txt")
+    # #fileManager.deleteFile("asen.txt")
+    # fileManager.readFile("asen.txt")
+    fileManager.renameFile("asen.txt","renamed.txt")
 
 
 main()
