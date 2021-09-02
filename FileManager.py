@@ -3,6 +3,8 @@ import os.path as path
 
 
 writemode: str = "w"
+readmode: str = "r"
+
 
 def writeIntoFile(filename,content):
     try:
@@ -22,3 +24,15 @@ def deleteFile(filename):
         print( filename + " removed")
     else:
         print( filename + " don't exists")
+
+
+def readFile(filename):
+
+    if path.exists(filename):
+        file1 = open(filename, readmode)
+        print("Output of Readlines after appending")
+        print(file1.readlines())
+        file1.close()
+    else:
+        print( filename + " don't exists")
+
