@@ -6,9 +6,11 @@ def printme( str ):
 
 
 def printFullList(thelist):
+    "This prints a full list passed into this function"
     for element in thelist:
         print(element)
 
 def printListFromTo(thelist,fromIndex,toIndex):
+    "This prints list from index to index into this function"
     print(fromIndex,toIndex)
     print(list[fromIndex:toIndex])
