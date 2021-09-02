@@ -11,8 +11,8 @@ def main():
     # dp.printFullList(listOfNumbers)
     # dp.printListFromTo(listOfNumbers, 3, 8)
 
-    fileManager.writeIntoFile("asen.txt","content to write")
-
+    # fileManager.writeIntoFile("asen.txt","content to write")
+    fileManager.deleteFile("asen.txt")
 
 
 

@@ -1,3 +1,7 @@
+import os
+import os.path as path
+
+
 writemode: str = "w"
 
 def writeIntoFile(filename,content):
@@ -9,3 +13,12 @@ def writeIntoFile(filename,content):
     else:
         print( "Written content in the file " + filename + " successfully")
         fh.close()
+
+
+def deleteFile(filename):
+
+    if path.exists(filename):
+        os.remove(filename)
+        print( filename + " removed")
+    else:
+        print( filename + " don't exists")
