@@ -3,6 +3,8 @@ import exception.exceptionExample as exceptionExample
 import filemanagement.FileManager as fileManager
 from model.Employee import Employee
 
+import webapi.webApiManager as webApiManager
+
 def main():
 
     # dp.printme("str")
@@ -18,9 +20,12 @@ def main():
     # fileManager.renameFile("renamed.txt","asen.txt")
     # fileManager.updateFileAddLine("asen.txt", "sentence one more")
 
-    emp = Employee("Asen", 2000000)
-    emp.displayCount()
-    emp.displayEmployee()
+    # emp = Employee("Asen", 2000000)
+    # emp.displayCount()
+    # emp.displayEmployee()
+
+    webApiManager.callWebApi()
+
 
 
 main()
