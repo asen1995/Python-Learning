@@ -4,7 +4,7 @@ import os.path as path
 
 writemode: str = "w"
 readmode: str = "r"
-
+newLineEscape = "\n"
 
 def writeIntoFile(filename,content):
     try:
@@ -44,3 +44,9 @@ def renameFile(filename,newfilename):
         os.rename(filename,newfilename)
     else:
         print( filename + " don't exists")
+
+
+def updateFileAddLine(filename,line):
+    with open(filename, "a") as file_object:
+        # Append 'hello' at the end of file
+        file_object.write(newLineEscape + line)
