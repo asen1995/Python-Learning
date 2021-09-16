@@ -32,7 +32,7 @@ def main():
 
     # webApiManager.callWebApi()
 
-    timestampFunctions.printtime();
+    timestampFunctions.printTime();
     timestampFunctions.printCalendar()
 
 

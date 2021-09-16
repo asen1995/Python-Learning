@@ -1,7 +1,7 @@
 import time
 import calendar
 
-def printtime():
+def printTime():
     localtime = time.asctime(time.localtime(time.time()))
     print("Local current time :" + localtime)
 
