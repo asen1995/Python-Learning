@@ -3,10 +3,9 @@ import exception.exceptionExample as exceptionExample
 import filemanagement.FileManager as fileManager
 from model.Employee import Employee
 
-import time
-import calendar
-
 import webapi.webApiManager as webApiManager
+
+import model.timestamps as timestampFunctions
 
 def main():
 
@@ -33,7 +32,8 @@ def main():
 
     # webApiManager.callWebApi()
 
-
+    timestampFunctions.printtime();
+    timestampFunctions.printCalendar()
 
 
 
