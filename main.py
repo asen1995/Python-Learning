@@ -3,7 +3,8 @@ import exception.exceptionExample as exceptionExample
 import filemanagement.FileManager as fileManager
 from model.Employee import Employee
 
-import time;
+import time
+import calendar
 
 import webapi.webApiManager as webApiManager
 
@@ -34,6 +35,9 @@ def main():
 
     localtime = time.asctime(time.localtime(time.time()))
     print("Local current time :" + localtime)
+
+    cal = calendar.month(2008, 1)
+    print("Here is the calendar :" + cal)
 
 
 
