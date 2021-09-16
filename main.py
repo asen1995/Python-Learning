@@ -5,6 +5,8 @@ from model.Employee import Employee
 
 import webapi.webApiManager as webApiManager
 
+import model.timestamps as timestampFunctions
+
 def main():
 
     # dp.printme("str")
@@ -27,7 +29,11 @@ def main():
     # emp.displayCount()
     # emp.displayEmployee()
 
-    webApiManager.callWebApi()
+
+    # webApiManager.callWebApi()
+
+    timestampFunctions.printTime();
+    timestampFunctions.printCalendar()
 
 
 
