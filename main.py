@@ -31,11 +31,14 @@ def main():
 
 
     # webApiManager.callWebApi()
+    #
+    # timestampFunctions.printTime()
+    # timestampFunctions.printCalendar()
 
-    timestampFunctions.printTime();
-    timestampFunctions.printCalendar()
-
-
+    count = 0
+    while (count < 9):
+        print('The count is:', count)
+        count = count + 1
 
 main()
 
