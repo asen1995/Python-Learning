@@ -3,6 +3,8 @@ import exception.exceptionExample as exceptionExample
 import filemanagement.FileManager as fileManager
 from model.Employee import Employee
 
+import time;
+
 import webapi.webApiManager as webApiManager
 
 def main():
@@ -27,7 +29,11 @@ def main():
     # emp.displayCount()
     # emp.displayEmployee()
 
-    webApiManager.callWebApi()
+
+    # webApiManager.callWebApi()
+
+    localtime = time.asctime(time.localtime(time.time()))
+    print("Local current time :" + localtime)
 
 
 
