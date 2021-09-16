@@ -33,11 +33,7 @@ def main():
 
     # webApiManager.callWebApi()
 
-    localtime = time.asctime(time.localtime(time.time()))
-    print("Local current time :" + localtime)
 
-    cal = calendar.month(2008, 1)
-    print("Here is the calendar :" + cal)
 
 
 
