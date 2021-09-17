@@ -43,6 +43,12 @@ def main():
     listIndexToIndex = list7[0:4]
     print(listIndexToIndex)
 
+    for i in list7:
+        if i % 2 == 0:
+            print(i , " is even")
+        else:
+            print(i , " is odd")
+
     # count = 0
     # while (count < 9):
     #     print('The count is:', count)
