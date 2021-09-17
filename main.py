@@ -6,6 +6,7 @@ from model.Employee import Employee
 import webapi.webApiManager as webApiManager
 
 import model.timestamps as timestampFunctions
+import strings.strings as Stringutils
 
 def main():
 
@@ -36,8 +37,8 @@ def main():
     # timestampFunctions.printCalendar()
 
     pythonSentence = "Python Programming!"
-    python = pythonSentence[0:6]
-    print("pythonSentence[0:6]: ", python)
+    Stringutils.printSubstring(pythonSentence,0,6)
+    Stringutils.printSubstring(pythonSentence, 6, 12)
 
     list7 = [1, 2, 3, 4, 5, 6, 7];
     listIndexToIndex = list7[0:4]
