@@ -35,6 +35,10 @@ def main():
     # timestampFunctions.printTime()
     # timestampFunctions.printCalendar()
 
+    pythonSentence = "Python Programming!"
+    python = pythonSentence[0:6]
+    print("pythonSentence[0:6]: ", python)
+
     count = 0
     while (count < 9):
         print('The count is:', count)
