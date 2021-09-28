@@ -7,7 +7,7 @@ import webapi.webApiManager as webApiManager
 
 import model.timestamps as timestampFunctions
 import strings.strings as Stringutils
-
+import basic.dataStructures as dataStructures
 def main():
 
     # dp.printme("str")
@@ -57,16 +57,7 @@ def main():
 
     #     datastructures
 
-    list = ["apple", "banana", "cherry"]
-    print(list)
-    print("len is ", len(list))
-    print(type(list))
-    list.append("orange")
-    print(list)
-    list.insert(0,"Asen")
-    print(list)
-    list.remove("Asen")
-    print(list)
+    dataStructures.list()
 
 main()
 
