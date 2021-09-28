@@ -59,7 +59,9 @@ def main():
 
     # dataStructures.list()
     # dataStructures.tulpe()
-    dataStructures.array()
+    # dataStructures.array()
+    dataStructures.twoDimensionalarray()
+
 
 
 main()

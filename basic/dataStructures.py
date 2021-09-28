@@ -30,3 +30,8 @@ def array():
 
     for x in cars:
         print(x)
+
+
+def twoDimensionalarray():
+    numbers = [1,2,3],[4,5,6],[7,8,9]
+    print(numbers[1],[2])
