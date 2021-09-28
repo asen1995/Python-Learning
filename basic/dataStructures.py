@@ -10,3 +10,10 @@ def list():
     list.remove("Asen")
     print(list)
 
+
+def tulpe():
+    # A tuple is a collection which is ordered and unchangeable.
+    mytuple = ("apple", "banana", "cherry")
+    print(mytuple)
+    print(type(mytuple))
+    
