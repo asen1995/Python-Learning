@@ -16,4 +16,6 @@ def tulpe():
     mytuple = ("apple", "banana", "cherry")
     print(mytuple)
     print(type(mytuple))
-    
+
+    for x in mytuple:
+        print(x)
