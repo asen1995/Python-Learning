@@ -19,3 +19,14 @@ def tulpe():
 
     for x in mytuple:
         print(x)
+
+
+def array():
+    cars = ["Ford", "Volvo", "BMW"]
+
+    for x in cars:
+        print(x)
+    cars[1] = "Mazda"
+
+    for x in cars:
+        print(x)

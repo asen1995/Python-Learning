@@ -58,7 +58,9 @@ def main():
     #     datastructures
 
     # dataStructures.list()
-    dataStructures.tulpe()
+    # dataStructures.tulpe()
+    dataStructures.array()
+
 
 main()
 
