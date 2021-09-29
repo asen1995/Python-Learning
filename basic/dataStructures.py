@@ -48,3 +48,11 @@ def map():
     print(res.get("day3"))
     res['day6'] = "saturday"
     print(res.get("day6"))
+    # update value
+    res.update({'day2':'Tuesday'})
+    print(res.get("day2"))
+    # delete
+    print('before delete day6')
+    print(res)
+    del res['day6']
+    print(res)
