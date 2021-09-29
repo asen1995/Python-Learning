@@ -1,3 +1,5 @@
+import collections
+
 def list():
     list = ["apple", "banana", "cherry"]
     print(list)
@@ -35,3 +37,22 @@ def array():
 def twoDimensionalarray():
     numbers = [1,2,3],[4,5,6],[7,8,9]
     print(numbers[1],[2])
+
+def map():
+    dict1 = {'day1': 'Mon', 'day2': 'Tue'}
+    dict2 = {'day3': 'Wed', 'day1': 'Thu'}
+
+    res = collections.ChainMap(dict1, dict2)
+    print('Keys = {}',res.keys())
+    print('Values = {}',res.values())
+    print(res.get("day3"))
+    res['day6'] = "saturday"
+    print(res.get("day6"))
+    # update value
+    res.update({'day2':'Tuesday'})
+    print(res.get("day2"))
+    # delete
+    print('before delete day6')
+    print(res)
+    del res['day6']
+    print(res)
