@@ -60,8 +60,8 @@ def main():
     # dataStructures.list()
     # dataStructures.tulpe()
     # dataStructures.array()
-    dataStructures.twoDimensionalarray()
-
+    # dataStructures.twoDimensionalarray()
+    dataStructures.map()
 
 
 main()
