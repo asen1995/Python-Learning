@@ -1,5 +1,6 @@
 import collections
 
+# list example
 def list():
     list = ["apple", "banana", "cherry"]
     print(list)
@@ -12,7 +13,7 @@ def list():
     list.remove("Asen")
     print(list)
 
-
+# tuple example
 def tulpe():
     # A tuple is a collection which is ordered and unchangeable.
     mytuple = ("apple", "banana", "cherry")
@@ -22,7 +23,7 @@ def tulpe():
     for x in mytuple:
         print(x)
 
-
+# simple example
 def array():
     cars = ["Ford", "Volvo", "BMW"]
 
@@ -33,11 +34,12 @@ def array():
     for x in cars:
         print(x)
 
-
+# two dimensional array example
 def twoDimensionalarray():
     numbers = [1,2,3],[4,5,6],[7,8,9]
     print(numbers[1],[2])
 
+# map example
 def map():
     dict1 = {'day1': 'Mon', 'day2': 'Tue'}
     dict2 = {'day3': 'Wed', 'day1': 'Thu'}
