@@ -1,8 +1,7 @@
-
-def printme( str ):
-   "This prints a passed string called str into this function"
-   print (str)
-   return;
+def printme(str):
+    "This prints a passed string called str into this function"
+    print(str)
+    return;
 
 
 def printFullList(thelist):
@@ -10,7 +9,8 @@ def printFullList(thelist):
     for element in thelist:
         print(element)
 
-def printListFromTo(thelist,fromIndex,toIndex):
+
+def printListFromTo(thelist, fromIndex, toIndex):
     "This prints list from index to index into this function"
-    print(fromIndex,toIndex)
+    print(fromIndex, toIndex)
     print(list[fromIndex:toIndex])

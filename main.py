@@ -8,8 +8,9 @@ import webapi.webApiManager as webApiManager
 import model.timestamps as timestampFunctions
 import strings.strings as Stringutils
 import basic.dataStructures as dataStructures
-def main():
 
+
+def main():
     # dp.printme("str")
     #
     # PRINT LIST NUMBERS
@@ -29,7 +30,6 @@ def main():
     # emp = Employee("Asen", 2000000)
     # emp.displayCount()
     # emp.displayEmployee()
-
 
     # webApiManager.callWebApi()
     #
@@ -65,4 +65,3 @@ def main():
 
 
 main()
-
