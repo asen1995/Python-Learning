@@ -1,5 +1,6 @@
 import collections
 
+
 # list example
 def list():
     list = ["apple", "banana", "cherry"]
@@ -13,6 +14,7 @@ def list():
     list.remove("Asen")
     print(list)
 
+
 # tuple example
 def tulpe():
     # A tuple is a collection which is ordered and unchangeable.
@@ -22,6 +24,7 @@ def tulpe():
 
     for x in mytuple:
         print(x)
+
 
 # simple example
 def array():
@@ -34,10 +37,12 @@ def array():
     for x in cars:
         print(x)
 
+
 # two dimensional array example
 def twoDimensionalarray():
-    numbers = [1,2,3],[4,5,6],[7,8,9]
-    print(numbers[1],[2])
+    numbers = [1, 2, 3], [4, 5, 6], [7, 8, 9]
+    print(numbers[1], [2])
+
 
 # map example
 def map():
@@ -45,13 +50,13 @@ def map():
     dict2 = {'day3': 'Wed', 'day1': 'Thu'}
 
     res = collections.ChainMap(dict1, dict2)
-    print('Keys = {}',res.keys())
-    print('Values = {}',res.values())
+    print('Keys = {}', res.keys())
+    print('Values = {}', res.values())
     print(res.get("day3"))
     res['day6'] = "saturday"
     print(res.get("day6"))
     # update value
-    res.update({'day2':'Tuesday'})
+    res.update({'day2': 'Tuesday'})
     print(res.get("day2"))
     # delete
     print('before delete day6')
