@@ -13,7 +13,7 @@ def list():
     print(list)
     list.remove("Asen")
     print(list)
-
+    del list
 
 # tuple example
 def tulpe():
@@ -24,7 +24,7 @@ def tulpe():
 
     for x in mytuple:
         print(x)
-
+    del mytuple
 
 # simple example
 def array():
@@ -36,13 +36,13 @@ def array():
 
     for x in cars:
         print(x)
-
+    del cars
 
 # two dimensional array example
 def twoDimensionalarray():
     numbers = [1, 2, 3], [4, 5, 6], [7, 8, 9]
     print(numbers[1], [2])
-
+    del numbers
 
 # map example
 def map():
@@ -63,3 +63,4 @@ def map():
     print(res)
     del res['day6']
     print(res)
+    del res
