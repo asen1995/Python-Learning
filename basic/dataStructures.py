@@ -64,3 +64,11 @@ def map():
     del res['day6']
     print(res)
     del res
+
+def setExperience():
+    Days = set(["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"])
+    Months = {"Jan", "Feb", "Mar"}
+    Dates = {21, 22, 17}
+    print(Days)
+    print(Months)
+    print(Dates)

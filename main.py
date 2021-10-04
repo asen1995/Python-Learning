@@ -61,7 +61,7 @@ def main():
     # dataStructures.tulpe()
     # dataStructures.array()
     # dataStructures.twoDimensionalarray()
-    dataStructures.map()
-
+    # dataStructures.map()
+    dataStructures.setExperience()
 
 main()
