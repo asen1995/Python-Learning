@@ -2,6 +2,9 @@ import collections
 
 
 # list example
+from basic.Stack import Stack
+
+
 def list():
     list = ["apple", "banana", "cherry"]
     print(list)
@@ -90,3 +93,13 @@ def setExperience():
     DaysB = set(["Wed", "Thu", "Fri", "Sat", "Sun"])
     AllDays = DaysA & DaysB
     print(AllDays)
+
+def stack():
+    stack = Stack()
+    stack.add("Mon")
+    stack.add("Tue")
+    stack.peek()
+    print(stack.peek())
+    stack.add("Wed")
+    stack.add("Thu")
+    print(stack.peek())
