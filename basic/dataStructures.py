@@ -15,6 +15,7 @@ def list():
     print(list)
     del list
 
+
 # tuple example
 def tulpe():
     # A tuple is a collection which is ordered and unchangeable.
@@ -25,6 +26,7 @@ def tulpe():
     for x in mytuple:
         print(x)
     del mytuple
+
 
 # simple example
 def array():
@@ -38,11 +40,13 @@ def array():
         print(x)
     del cars
 
+
 # two dimensional array example
 def twoDimensionalarray():
     numbers = [1, 2, 3], [4, 5, 6], [7, 8, 9]
     print(numbers[1], [2])
     del numbers
+
 
 # map example
 def map():
@@ -65,6 +69,7 @@ def map():
     print(res)
     del res
 
+
 def setExperience():
     Days = set(["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"])
     Days.remove("Tue")
@@ -73,6 +78,9 @@ def setExperience():
     Dates = {21, 22, 17}
     Dates.add(21)
     Dates.add(55)
-    print(Days)
-    print(Months)
-    print(Dates)
+    # print(Days)
+    # print(Months)
+    # print(Dates)
+    Days.discard("Sun")  # other way of delete
+    for d in Days:
+        print(d)
