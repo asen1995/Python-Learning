@@ -67,8 +67,12 @@ def map():
 
 def setExperience():
     Days = set(["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"])
+    Days.remove("Tue")
     Months = {"Jan", "Feb", "Mar"}
+    Months.remove("Mar")
     Dates = {21, 22, 17}
+    Dates.add(21)
+    Dates.add(55)
     print(Days)
     print(Months)
     print(Dates)
