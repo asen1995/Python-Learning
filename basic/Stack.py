@@ -12,3 +12,6 @@ class Stack:
 # Use peek to look at the top of the stack
    def peek(self):
 	   return self.stack[-1]
+
+   def size(self):
+       return len(self.stack)

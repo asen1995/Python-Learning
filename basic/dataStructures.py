@@ -100,6 +100,8 @@ def stack():
     stack.add("Tue")
     stack.peek()
     print(stack.peek())
+    print(stack.size())
     stack.add("Wed")
     stack.add("Thu")
     print(stack.peek())
+    print(stack.size())
