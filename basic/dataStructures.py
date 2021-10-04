@@ -82,5 +82,11 @@ def setExperience():
     # print(Months)
     # print(Dates)
     Days.discard("Sun")  # other way of delete
-    for d in Days:
-        print(d)
+    # for d in Days:
+    #     print(d)
+
+    # Intersection of Sets
+    DaysA = set(["Mon", "Tue", "Wed"])
+    DaysB = set(["Wed", "Thu", "Fri", "Sat", "Sun"])
+    AllDays = DaysA & DaysB
+    print(AllDays)
