@@ -63,5 +63,7 @@ def main():
     # dataStructures.twoDimensionalarray()
     # dataStructures.map()
     # dataStructures.setExperience()
-    dataStructures.stack()
+    # dataStructures.stack()
+    dataStructures.deque()
+
 main()
